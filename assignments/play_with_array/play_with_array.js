@@ -24,11 +24,11 @@ function multiplyByN(arr, n) {
             Output: [3,9,13,165]
         Write you code below
     */
-    for(i=0;i<arr.length;i++)
-    {
-        arr[i]=arr[i]*n;
-    }
-    return arr
+        for(i=0;i<arr.length;i++)
+        {
+            arr[i]=arr[i]*n;
+        }
+        return arr
 }
 function removeNthElement(arr, n) {
     /*
